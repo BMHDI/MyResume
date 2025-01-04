@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarik Boumehdi - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+<button class="button" id="downloadButton">Download Resume as PDF</button>
+<button class="floating-btn" onclick="window.location.href='FrResume.html'">French Version</button>
+<script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="resume-content">
+    <h1>Tarik Boumehdi</h1>
+    <p class="subtitle">Web Developer | MERN Stack Enthusiast</p>
+    
+    <div class="contact-info">
+      <a href="mailto:tarik.boumehdi@example.com">
+        <i class="fas fa-envelope"></i>Tarikboumehdi91@gmail.com
+      
+      </a>
+      <a href="https://www.linkedin.com/in/tarik-boumehdi-a4b91a205">
+        <i class="fab fa-linkedin"></i>/tarik-boumehdi-a4b91a205
+       
+      </a>
+      <a href="https://github.com/BMHDI">
+        <i class="fab fa-github"></i>github.com/BMHDI
+        
+      </a>
+    </div>
+    
+    <h2>About Me</h2>
+    <p>I am a web developer with hands-on experience in the MERN stack. I enjoy creating user-friendly and impactful web applications, focusing on solving problems and delivering practical solutions. I’ve developed strong teamwork and communication skills through my background in customer service, and I’m always eager to learn and grow. I’m excited to bring my technical abilities and passion for development to a dynamic team.</p>
+
+    <h2>Experience</h2>
+    <h3>La Cité des Rocheuses, Non-profit Org. - Building Manager</h3>
+    <p><strong>January 2023 – April 2024</strong></p>
+    <ul>
+      <li>Managed building operations and ensured tenant satisfaction by overseeing maintenance, coordinating safety protocols, and fostering a positive environment for non-profit organizations.</li>
+    </ul>
+
+    <h3>La Cité des Rocheuses, Non-profit Org. - Settlement Counselor</h3>
+    <p><strong>November 2021 – January 2023</strong></p>
+    <ul>
+      <li>Assisted francophone newcomers in Calgary by connecting them to essential services and working closely with local businesses and non-profits to facilitate community integration.</li>
+    </ul>
+
+    <h3>BoardWalk - Resident Manager</h3>
+    <p><strong>October 2021 – November 2021</strong></p>
+    <ul>
+      <li>Oversaw daily operations of residential properties, ensuring a safe, clean, and welcoming environment for residents.</li>
+      <li>Handled maintenance tasks, addressed resident concerns, and fostered a sense of community within the property.</li>
+    </ul>
+
+    <h2>Education</h2>
+    <h3>InceptionU Bootcamp - MERN Stack Development</h3>
+    <p><strong>September 2024 – February 2025</strong></p>
+    <ul>
+      <li>Completed an intensive, hands-on training program focused on full-stack web development using the MERN stack.</li>
+      <li>Gained practical experience by building multiple projects and mastering skills in web development, database management, and software engineering.</li>
+    </ul>
+
+    <h3>Specialized Institute of Applied Technology - Hotel and Tourism</h3>
+    <p><strong>Diploma in Hospitality Management | September 2011 – February 2015</strong></p>
+    <ul>
+      <li>Completed a comprehensive four-year program specializing in hospitality management and culinary arts.</li>
+    </ul>
+
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <div><strong>Languages & Frameworks:</strong> HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js</div>
+      <div><strong>Databases & Tools:</strong> SQLite, MySQL, MongoDB, Git, JWT, Tailwind CSS, Bootstrap, Docker, AWS, Firebase, Postman</div>
+      <div><strong>Others:</strong> Vercel, GitHub, MUI, ShadCN, Express.js, API Integrations</div>
+    </div>
+
+    <h2>Languages</h2>
+    <div class="languages">
+      <div><strong>English:</strong> Fluent</div>
+      <div><strong>French:</strong> Fluent</div>
+    </div>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Soft Skills:</strong> Team Player, Strong Communication, Problem-Solving, Adaptability</li>
+      <li><strong>Programming Languages:</strong> <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>Python</strong>, <strong>HTML</strong>, <strong>CSS</strong></li>
+      <li><strong>Frameworks & Libraries:</strong> <strong>React.js</strong>, <strong>Next.js</strong>, <strong>Express.js</strong></li>
+      <li><strong>Databases:</strong> <strong>MongoDB</strong>, <strong>SQLite</strong>, <strong>MySQL</strong></li>
+      <li><strong>Tools & Technologies:</strong> <strong>Git</strong>, <strong>Docker</strong>, <strong>AWS</strong>, <strong>Firebase</strong>, <strong>Postman</strong></li>
+      <li><strong>Other Skills:</strong> Web Scraping, API Integration, HTML Parsing, Tailwind CSS, Bootstrap, JWT</li>
+    </ul>
+    
+    <h2>Personal Projects</h2>
+<div class="projects">
+  <div>
+    <strong>AI Resume Builder:</strong> Created an AI-powered resume generator.
+    <ul>
+      <li>Technologies used: <strong>Clerk</strong>, <strong>Tailwind CSS</strong>, <strong>MongoDB</strong>, <strong>Axios</strong>, <strong>Gemini Flash 1.5</strong></li>
+    </ul>
+  </div>
+  
+  <div>
+    <strong>Parking Pirate:</strong> Full-stack parking application displaying real-time Calgary parking data.
+    <ul>
+      <li>Technologies used: <strong>Leaflet</strong>, <strong>Express.js</strong>, <strong>MongoDB</strong>, <strong>React.js</strong></li>
+    </ul>
+  </div>
+  
+  <div>
+    <strong>AlloAlberta:</strong> Francophone community app with event listings and guides.
+    <ul>
+      <li>Technologies used: <strong>Adalo</strong> (no-code tool), <strong>Web scraping</strong>, <strong>RSS API calls</strong></li>
+    </ul>
+  </div>
+  
+  <div>
+    <strong>Lexter for Lawyers:</strong> Platform for lawyers assisting in career decisions.
+    <ul>
+      <li>Technologies used: <strong>React.js</strong>, <strong>Clerk</strong>, <strong>MUI</strong>, <strong>TypeScript</strong></li>
+    </ul>
+  </div>
+  
+  <div>
+    <strong>AI Summarizer:</strong> Open-source article summarizer transforming lengthy articles into clear, concise summaries.
+    <ul>
+      <li>Technologies used: <strong>Next.js</strong>, <strong>APIs</strong>, <strong>Web parsing HTML</strong></li>
+    </ul>
+  </div>
+</div>
+
+  </div>
+  </div>
+</body>
+</html>
